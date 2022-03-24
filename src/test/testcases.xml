@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="testcases_ecommerce">
+    <test  verbose="2" preserve-order="true"
+           name="Clients">
+
+        <parameter name="BrowserName" value="chrome"/>
+        <classes>
+            <class name="mannn.com.testcases.SignInTest">
+            </class>
+            <class name="mannn.com.testcases.DashboardTest">
+            </class>
+            <class name="mannn.com.testcases.AddNewProductTest">
+            </class>
+        </classes>
+    </test>
+</suite>
